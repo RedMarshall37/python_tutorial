@@ -4,7 +4,7 @@ class Nikola:
     def __init__(self, name, age):
         self.age = age
         if not name.upper() == "НИКОЛАЙ":
-            self.name = f"Я не {name}, я - Император и самодержец Всеройскийский, Московский, Киевский ... Николай II"
+            self.name = f"Я не {name}, я - Император и самодержец Всеройскийский Николай II"
         else:
             self.name = "Николай"
 
